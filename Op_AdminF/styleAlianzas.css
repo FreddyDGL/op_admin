@@ -1,0 +1,39 @@
+*{
+    font-family:bahnschrift;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.fondo{
+    background-image: url('Recursos/fondo.jpg');
+    background-attachment: fixed;
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    background-color: rgba(193, 193, 193, 1);
+    border-radius: 40px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.animacion:hover ,.img {
+    transition:all .5s ease-in-out;
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.footer{
+    background-color: rgba(93, 100, 97, .7);
+    height: 200px;
+}
+.logoFooter{
+    width: 190px;
+    height: 190px;
+}
+.letraF{
+    color: white;
+}
